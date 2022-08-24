@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Rajdhani_light";
+  src: url("./assets/fonts/Rajdhani-Light.ttf");
+}
+
+/* @font-face {
+  font-family: "Rajdhani_medium";
+  src: url("./fonts/Rajdhani-Medium.ttf");
+} */
+
+
+.green_bg {
+  background-color: #00AB55 !important;
+}
+
+.green_text {
+  color : #00AB55 !important;
+}
