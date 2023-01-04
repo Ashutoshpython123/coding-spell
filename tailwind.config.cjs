@@ -4,32 +4,29 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily : {
-        sans : ['DM Sans', 'sans-serif'],
-        Rajdhani: ["Rajdhani_light" ]
+      fontFamily: {
+        sans: ['DM Sans', 'sans-serif'],
+        Rajdhani: ["Rajdhani_light"],
+        Rajdhani__bold: ["Rajdhani_bold"]
       },
-      colors : {
-        green : {
-          DEFAULT : '#71B214'
-        },
-        gray : {
-          600 : '#606060'
-        },
-        bhagawa : {
-          DEFAULT : '#ff9900'
-        },
-        header_bg : {
-          DEFAULT : '#6350BB'
-        },
-        textc : {
-          DEFAULT : "#7bf5fb"
-        },
-        bluec :{
-          DEFAULT : "#343FA1"
-        }
+      colors: {
+        'textc': "#7bf5fb",        
+        'bluec': "#343FA1",
+        
+        'colorg': "#00AB55",
+        'colorv': "#7635dc",
+        'colorr': "#FF3030",
+        'colory': '#fda92d',
+        'colorb': '#2065D1',
+        'colorl': '#1CCAFF',
+        green: { DEFAULT: '#71B214' },
+        gray: { 600: '#606060' },
+        bhagawa: { DEFAULT: '#ff9900' },
+        header_bg: { DEFAULT: '#6350BB' },
+
       },
-      spacing : {
-        13 : '3.25rem',
+      spacing: {
+        13: '3.25rem',
       },
       rotate: {
         '20': '20deg',
@@ -37,8 +34,8 @@ module.exports = {
       zIndex: {
         '100': '100',
       },
-      boxShadow : {
-        primary : '0px 9.9px 21.6px rgba(136, 202, 41, 0.41)'
+      boxShadow: {
+        primary: '0px 9.9px 21.6px rgba(136, 202, 41, 0.41)'
       },
       borderRadius: {
         'none': '0',

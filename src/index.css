@@ -3,12 +3,42 @@
 }
 
 @tailwind base;
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--secondary) var(--primary);
+}
+
+:root {
+  --primary: rebeccapurple;
+  --secondary: cornflowerblue;
+}
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--primary);
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--secondary);
+  border-radius: 14px;
+  border: 3px solid var(--primary);
+}
 @tailwind components;
 @tailwind utilities;
 
 @font-face {
   font-family: "Rajdhani_light";
-  src: url("./assets/fonts/Rajdhani-Light.ttf");
+  src: url("./assets/fonts/Rajdhani-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Rajdhani_bold";
+  src: url("./assets/fonts/Rajdhani-SemiBold.ttf");
 }
 
 /* @font-face {
@@ -23,4 +53,15 @@
 
 .green_text {
   color : #00AB55 !important;
+}
+
+
+
+.illustration-editor {
+  margin-top: -2rem;
+  margin-right: -10rem;
+  display: grid;
+  grid-template-rows: 24px auto;
+  justify-items: center;
+  position: relative;
 }
